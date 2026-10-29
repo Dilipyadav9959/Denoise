@@ -1,0 +1,8 @@
+# Pinned on purpose: newer torchaudio (2.1+) breaks DeepFilterNet's imports,
+# and numpy 2.x breaks torch 2.0.x.
+torch==2.0.1
+torchaudio==2.0.2
+numpy<2
+deepfilternet
+sounddevice
+soundfile
